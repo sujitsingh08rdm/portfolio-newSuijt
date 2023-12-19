@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio-bySujit</title>
+    <script
+      src="https://kit.fontawesome.com/74ab68b4f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <h1>Portfolio - Sujit</h1>
+        </div>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#service">Service</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <!-- <i id="bar" class="fa-solid fa-bars"></i> -->
+      </nav>
+
+      <div class="main">
+        <div class="mainText">
+          <h3>Hello I am,</h3>
+          <h1>Sujit</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+            Aliquam, distinctio. Minus laboriosam facilis esse sed corrupti
+            possimus ex
+          </p>
+          <button onClick="downloadBtn()">Download CV</button>
+        </div>
+        <img src="main.png" alt="my-img" />
+      </div>
+
+      <div id="about">
+        <div class="head">
+          <h1>About Me</h1>
+        </div>
+        <div class="about">
+          <div class="aboutText">
+            <h1>Sujit</h1>
+            <p>Frontend Dev</p>
+            <p>Guitar Player</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. lauda<br />
+              ntium quo nihil placeat. Nobis quibusdam vitae, impedit aliquid
+            </p>
+          </div>
+          <img src="dp.png" alt="" />
+        </div>
+      </div>
+
+      <div id="service">
+        <div class="head">
+          <h1>My Service</h1>
+        </div>
+        <div class="btns">
+          <button class="btn" id="all">All</button>
+          <button class="btn" id="dev">Frontend Development</button>
+          <button class="btn" id="gpl">Guitar Player</button>
+          <button class="btn" id="pma">Project Management</button>
+        </div>
+        <div class="service">
+          <div class="serviceCard" id="webDesign">
+            <i class="fa-solid fa-code"></i>
+            <h2>Frontend Development</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, nesciunt!
+            </p>
+            <button>Contact</button>
+          </div>
+          <div class="serviceCard" id="guitar">
+            <i class="fa-solid fa-guitar"></i>
+            <h2>Guitar Player</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, nesciunt!
+            </p>
+            <button>Contact</button>
+          </div>
+          <div class="serviceCard" id="projectM">
+            <i class="fa-solid fa-list-check"></i>
+            <h2>Project Management</h2>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Voluptate, nesciunt!
+            </p>
+            <button>Contact</button>
+          </div>
+        </div>
+      </div>
+
+      <div id="work">
+        <div class="head">
+          <h1>My Work's</h1>
+        </div>
+        <div class="work">
+          <div class="workCard">
+            <img src="01bmical.PNG" alt="" />
+            <h3>BMI Calculator</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://bmicalc-bysujit.netlify.app/" target="_blank"
+              >Checkout</a
+            >
+          </div>
+          <div class="workCard">
+            <img src="02dictionary.PNG" alt="" />
+            <h3>Dictionary App</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://dictionaryapp-bysujit.netlify.app/" target="_blank"
+              >Checkout</a
+            >
+          </div>
+          <div class="workCard">
+            <img src="03quiz.PNG" alt="" />
+            <h3>Quiz App</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://quizapp-bysujit.netlify.app/" target="_blank"
+              >Checkout</a
+            >
+          </div>
+          <div class="workCard">
+            <img src="04searchbar.PNG" alt="" />
+            <h3>Search Bar</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://searchbar-bysujit.netlify.app" target="_blank"
+              >Checkout</a
+            >
+          </div>
+          <div class="workCard">
+            <img src="05movie.PNG" alt="" />
+            <h3>Movie Search App</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a
+              href="https://moviesearchapp-bysujit.netlify.app/"
+              target="_blank"
+              >Checkout</a
+            >
+          </div>
+          <div class="workCard">
+            <img src="06image.PNG" alt="" />
+            <h3>Image Searcher App</h3>
+            <p>Lorem ipsum dolor sit.</p>
+            <a href="https://imagesearch-bysujit.netlify.app/" target="_blank"
+              >Checkout</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <div class="head">
+          <h1>Contact Us</h1>
+        </div>
+        <div class="contact">
+          <input type="text" placeholder="Enter Your Name" id="name" />
+          <input type="text" placeholder="Enter Your Email" id="email" />
+          <textarea
+            name=""
+            id="msg"
+            cols="40"
+            rows="6"
+            value=""
+            placeholder="Enter Message..."
+          ></textarea>
+          <button id="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="icons">
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-github"></i>
+      </div>
+      <div class="text">
+        <p>Privacy</p>
+        <p>Term & Condition</p>
+        <p>Disclaimer</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
