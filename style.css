@@ -302,4 +302,7 @@ ul li a:hover {
   .logo {
     display: none;
   }
+  .contact {
+    display: none;
+  }
 }
