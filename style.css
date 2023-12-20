@@ -277,7 +277,7 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  .contacts {
+  .contact {
     width: 60%;
   }
   .about {
@@ -295,6 +295,9 @@ ul li a:hover {
   }
   ul li a {
     font-size: 15px;
+  }
+  #contacts{
+    width: 80%;
   }
 }
 
