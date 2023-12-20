@@ -277,8 +277,8 @@ ul li a:hover {
 }
 
 @media screen and (max-width: 500px) {
-  .contact {
-    width: 90%;
+  .contacts {
+    width: 60%;
   }
   .about {
     text-align: center;
@@ -302,7 +302,5 @@ ul li a:hover {
   .logo {
     display: none;
   }
-  .contact {
-    display: none;
-  }
+  
 }
