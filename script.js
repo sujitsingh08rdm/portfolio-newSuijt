@@ -48,8 +48,15 @@ btns.forEach(function (buttons) {
   });
 });
 
-function downloadBtn() {
-  alert('CV not found');
+function downloadBtn(contentBase64) {
+  const linkSource = `data:application/pdf;base64,${contentBase64}`;
+  const downloadLink = document.createElement('a');
+  document.body.appendChild(downloadLink);
+
+  downloadLink.href = linkSource;
+  downloadLink.target = '_self';
+  downloadLink.download = 'CV';
+  downloadLink.click();
 }
 
 submit.addEventListener('click', function () {
