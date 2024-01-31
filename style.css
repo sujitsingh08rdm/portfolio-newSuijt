@@ -662,7 +662,7 @@ footer {
     display: inline-block;
     background: transparent;
     font-size: 1.8rem;
-    color: (--color-gray-900);
+    color: var(--color-gray-900);
   }
 
   .nav-toggle-close {
