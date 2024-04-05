@@ -293,7 +293,7 @@ header {
 
 .about-container {
   display: grid;
-  grid-template-columns: 2fr 3fr;
+  grid-template-columns: 1fr 2fr;
   gap: 7rem;
 }
 
@@ -726,8 +726,9 @@ footer {
   }
 
   .about-container {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
+
   .about-details > h1 {
     text-align: center;
   }
